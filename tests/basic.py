@@ -4,7 +4,7 @@
 
 import time
 
-import adafruit_ticks
+from adafruit_ticks import ticks_ms, ticks_less
 
 
 def test_basic():
